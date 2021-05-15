@@ -1,0 +1,22 @@
+#ap{
+    text-decoration: underline;
+    text-align: center;
+    color: linear-gradient(90deg, rgba(240,7,157,1) 0%, rgba(115,37,133,1) 0%);;
+ }
+ #label{
+     font-style: italic;
+     font-style: 20px;
+     font-weight: 600;
+ }
+ #btns{
+     text-align: center;
+     padding-top: 15px;
+ }
+ .btnss{
+    background: linear-gradient(90deg, rgba(240,7,157,1) 0%, rgba(115,37,133,1) 0%);
+     width: 200px;
+     border:none;
+     outline: none;
+     font-size: 18px;
+     color: #ffffff;
+ }

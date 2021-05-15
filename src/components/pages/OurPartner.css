@@ -1,0 +1,24 @@
+
+*{
+    box-sizing: border-box !important;
+}
+.our-partners img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.our-partners{
+    width: 100%;
+}
+.brand{
+   padding-left:110px;
+}
+
+@media screen and (max-width: 992px) {
+    *{
+        box-sizing: border-box !important;
+        overflow-x: hidden;
+    }
+  }
+

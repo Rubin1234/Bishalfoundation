@@ -1,0 +1,27 @@
+#flexs{
+    display: flex;
+    padding-top: 60px;
+    flex-direction: row;
+   
+}
+.carousel slide{
+    width: 100%;
+}
+
+.slide{
+   
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,248,253,1) 0%);
+}
+.carousel-control-prev-icon{
+    background-color: rgb(144, 7, 156) !important;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+
+}
+.carousel-control-next-icon{
+    background-color: rgb(144, 7, 156) !important;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+}

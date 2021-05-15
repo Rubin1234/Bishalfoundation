@@ -1,0 +1,24 @@
+.si{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+#sin{
+    height: 35px;
+    width: 120px;
+    border: none;
+    background: rgb(240,7,157);
+    background: linear-gradient(90deg, rgba(240,7,157,1) 0%, rgba(115,37,133,1) 0%);
+    color:#ffffff;
+}
+#in{
+    padding-bottom: 10px;
+}
+#back{
+   padding-left: 50px;
+}
+.bc{
+    color:black;
+}
+

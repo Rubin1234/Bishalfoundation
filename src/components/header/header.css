@@ -1,0 +1,1018 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+     overflow-x: hidden;
+ }
+ /* Nav 2 styling */
+ #li{
+     color: black !important;
+    text-decoration: none;
+ }
+.fa-sort-down{
+    padding-left: 7px;
+}
+#vl{
+    position: relative;
+    left: -35px !important;
+}
+ #fnav{
+   height: 58px;
+    width: 100%;
+    background: rgb(240,7,157);
+    background: linear-gradient(90deg, rgba(240,7,157,1) 0%, rgba(115,37,133,1) 0%);
+    display: flex;
+   flex-wrap: wrap;
+   }
+.nof{
+   display: flex;
+}
+#vc{
+    color: #ffffff;
+}
+#vl li{
+    padding: 5px 10px;
+    
+}
+#vl li .oh{
+    color: #000;
+}
+#select{
+   background: rgb(240,7,157);
+   background: linear-gradient(90deg, rgba(240,7,157,1) 0%, rgba(115,37,133,1) 0%);
+   outline:none;
+   border: none;
+   color: white;
+}
+#select option{
+   color: #000; 
+}
+nav .uls{
+    display: flex;
+}
+
+ /* use of media query */
+ .dn {
+    display: none;
+}
+
+
+
+ @media screen and (max-width: 992px) {
+    #fnav{
+        display: none !important;
+    }
+   .pt{
+    position: absolute;
+    top: -20px;
+    right: 120px;
+   }
+   .sec{
+       display: none !important;
+   }
+   .pad{
+       padding-top: 25px !important;
+   }
+   .dns {
+       display: none !important;
+
+   }
+   .wws{
+       position:absolute !important;
+        left: -20px !important;
+   }
+   .wws ul{
+       border: none !important;
+   }
+   .wws ul li{
+       border-bottom: none !important;
+   }
+
+   .pt1{
+       position: absolute;
+       top: -20px;
+       right: -160px;
+   }
+   .secs{
+       display: none !important;
+   }
+   .pts{
+    position: absolute;
+    top: -20px;
+    right: -380px;
+}
+#ptp{
+    display: none !important;
+}  
+  }
+
+
+
+  @media screen and (max-width: 1390px) {
+  .non{
+      display:none;
+  }
+  #block #cate ul{
+    position: absolute;
+    left: -238px !important;
+    top:56px;
+    text-align: center;
+}
+#sec,#sec1,#sec2,#sec3,#sec4,#sec5,#sec6{
+    position: absolute;
+    left: 396px !important;
+    top: -105.5px;
+    width: 750px;
+}
+#blocks #cates ul{
+    position: absolute;
+    left: -383px !important;
+    top:56px;
+    text-align: center;
+}
+#secs,#sec1s,#sec2s,#sec3s,#sec4s,#sec5s,#sec6s{
+    position: absolute;
+    left: 541px !important;
+    top: -105.5px;
+    width: 750px;
+}
+#blocka #catea ul{
+    position: absolute;
+    left: -523px !important;
+    top:56px;
+    text-align: center;
+}
+#seca,#sec1a,#sec2a,#sec3a,#sec4a,#sec5a,#sec6a{
+    position: absolute;
+    left: 681.3px !important;
+    top: -105.5px;
+    width: 750px;
+}
+#blockp #catep ul{
+    position: absolute;
+    left: -740px !important;
+    top:56px;
+    text-align: center;
+}
+#secp,#sec1p,#sec2p,#sec3p,#sec4p,#sec5p,#sec6p{
+    position: absolute;
+    left: 898px !important;
+    top: -105.5px;
+    width: 750px;
+}
+  }
+
+
+/* first nav style */
+
+
+.dn .select,.dn li #si{
+    background: #ffffff !important;
+    color: black;
+    font-weight: bold;
+}
+
+#si{
+    outline: none;
+    border: none;
+    background: rgb(240,7,157);
+    background: linear-gradient(90deg, rgba(240,7,157,1) 0%, rgba(115,37,133,1) 0%);
+    
+    color: #ffffff;
+}
+
+
+ .fstyle ul li{
+     color: #ffffff;
+ }
+ ul li{
+     list-style:none;
+     font-size: 18px;
+     font-family: arial;
+     padding: 15px 20px;
+     display: block;
+ }
+ .whit ul li:hover{
+     display: block;
+     background-color: #ffff;
+ }
+ nav ul{
+     display: flex;
+ }
+ nav{
+     width: 100%;
+     background-color: red;
+ }
+ #block{
+     position: relative;
+     color: #000000;
+     font-weight:550;
+ }
+ #block #cate ul{
+     position: absolute;
+     left: -93px;
+     top:56px;
+     text-align: center;
+ }
+ #block #cate ul li{  
+     padding: 8px ;
+     text-align: justify;
+     position: relative;
+     left: 0px;
+     font-weight: normal;
+ }
+#cate ul {
+    display:none;
+}
+#block:hover #cate ul{
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+}
+#block #cate ul li:hover{
+    display: block;
+    background: rgb(255, 146, 4);
+    width: 98%;
+}
+#cate{
+    width: auto;
+   
+}
+
+
+/*second patent and child */
+
+#pt{
+    padding-top: 80px;
+}
+#pt h3{
+    text-align: left;
+    color: #000000;
+}
+#pad{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    width: 250px !important;
+    z-index: 2 !important;
+}
+#pad li{
+    color: #000000;
+}
+#men{
+    position: relative;
+
+}
+#sec{
+    position: absolute;
+    left: 280px;
+    top: -105.5px;
+    width: 750px;
+}
+#sec p{
+    color: black;
+    text-align: justify;
+}
+
+
+/* for second  men1 leadership */
+#ul{
+    display: flex;
+}
+
+#men1{
+    position: relative;
+
+}
+
+#sec1{
+    position: absolute;
+    left: 280px;
+    top: -148px;
+    width: 750px;
+    display: none;
+}
+#sec1 p{
+    color: black;
+    text-align: justify;
+}
+#men1:hover #sec1 {
+    display: block !important;
+}
+
+/* executive board styleing men2 */
+
+#men2{
+    position: relative;
+
+}
+
+#sec2{
+    position: absolute;
+    left: 280px;
+    top: -190.5px;
+    width: 750px;
+    display: none;
+}
+#sec2 p{
+    color: black;
+    text-align: justify;
+}
+#men2:hover #sec2 {
+    display: block !important;
+}
+
+/* Adisory Board styling men3 */
+
+#men3{
+    position: relative;
+
+}
+
+#sec3{
+    position: absolute;
+    left: 280px;
+    top: -233px;
+    width: 750px;
+    display: none;
+}
+#sec3 p{
+    color: black;
+    text-align: justify;
+}
+#men3:hover #sec3 {
+    display: block !important;
+}
+
+/* Secretariat styling men4 */
+
+#men4{
+    position: relative;
+
+}
+
+#sec4{
+    position: absolute;
+    left: 280px;
+    top: -275.5px;
+    width: 750px;
+    display: none;
+}
+#sec4 p{
+    color: black;
+    text-align: justify;
+}
+#men4:hover #sec4 {
+    display: block !important;
+}
+
+/* Transparency & Accountability styling men5 */
+#men5{
+    position: relative;
+
+}
+
+#sec5{
+    position: absolute;
+    left: 280px;
+    top: -317.5px;
+    width: 750px;
+    display: none;
+}
+#sec5 p{
+    color: black;
+    text-align: justify;
+}
+#men5:hover #sec5 {
+    display: block !important;
+}
+
+/* FAQ men6 styling */
+#men6{
+    position: relative;
+
+}
+
+#sec6{
+    position: absolute;
+    left: 280px;
+    top: -386.5px;
+    width: 750px;
+    display: none;
+}
+#sec6 p{
+    color: black;
+    text-align: justify;
+}
+#men6:hover #sec6 {
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+ 
+ /* second nav styling */
+
+.navbar{
+    background-color: #ffff;
+}
+
+
+
+/* What we do styling */
+
+
+#blocks{
+    position: relative;
+    color: #000000;
+    font-weight:550;
+}
+#blocks ul li{
+    font-weight: 100 !important;
+    display: block;
+    position: relative;
+    left: -20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+}
+
+#wwd ul{
+    display: block;
+    height: auto;
+    width: 303px !important;
+    background-color: #ffffff; 
+    border: 2px solid #cccccc;
+   
+}
+#wwd{
+    position: absolute;
+   top: 56px;
+    left: -75px;
+    z-index: 2 !important;   
+}
+.sdgs{
+    position: relative;
+    display: flex !important;
+}
+.sdgs div ul{
+ display: block;
+ height: auto;
+ width: 200px !important;
+ position: absolute;
+ left: 270px;
+}
+.sdgs div ul li:hover{
+    background-color: rgb(255, 146, 4);
+    display: block;
+}
+.sdgs div ul li{
+    position: relative;
+    left: -10px !important;
+}
+#wwd ul li:hover{
+    background-color: rgb(255, 146, 4);
+    display: block;
+}
+#dns{
+    display: none;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+.sdgs:hover #dns{
+    display: block;
+}
+#trsm{
+    border-bottom: none !important;
+}
+
+/* second */
+.sdgs1 div ul{
+    display: block;
+    height: auto;
+    width: 200px !important;
+    position: absolute;
+    left: 270px;
+   }
+   .sdgs1 div ul li:hover{
+       background-color: rgb(255, 146, 4);
+       display: block;
+   }
+   .sdgs1 div ul li{
+       position: relative;
+       left: -10px !important;
+   }
+#dns1{
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    z-index: 1 !important;
+    display: none;
+}
+.sdgs1:hover #dns1{
+    display: block;
+}
+
+#wwd{
+    display: none;
+}
+.wwd:hover #wwd{
+    display: block;
+}
+
+
+
+
+/* resource and media styling */
+
+
+#blocka{
+    position: relative;
+    color: #000000;
+    font-weight:550;
+
+}
+#blocka #catea ul{
+    position: absolute;
+    left: -498px;
+    top:56px;
+    text-align: center;
+}
+#blocka #catea ul li{  
+    padding: 8px ;
+    text-align: justify;
+    position: relative;
+    left: 0px;
+    font-weight: normal;
+}
+#catea ul {
+   display:none;
+}
+#blocka:hover #catea ul{
+   display: block;
+   width: 100%;
+   background-color: #ffffff;
+}
+#blocka #catea ul li:hover{
+   display: block;
+   background: rgb(255, 146, 4);
+   width: 98%;
+}
+#catea{
+   width: auto;
+  
+}
+/*second patent and child */
+
+#pta{
+    padding-top: 80px;
+}
+#pta h3{
+    text-align: left;
+    color: #000000;
+}
+#pada{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    height: 393px !important;
+    width: 250px !important;
+    z-index: 2 !important;
+}
+#pada li{
+    color: #000000;
+}
+#mena{
+    position: relative;
+
+}
+
+#seca{
+    position: absolute;
+    left: 682px;
+    top: -105.5px;
+    width: 750px;
+}
+#seca p{
+    color: black;
+    text-align: justify;
+}
+
+
+/* for second  men1 leadership */
+#ul{
+    display: flex;
+}
+
+#men1a{
+    position: relative;
+
+}
+
+#sec1a{
+    position: absolute;
+    left: 682px;
+    top: -148px;
+    width: 750px;
+    display: none;
+}
+#sec1a p{
+    color: black;
+    text-align: justify;
+}
+#men1a:hover #sec1a {
+    display: block !important;
+}
+
+/* executive board styleing men2 */
+
+#men2a{
+    position: relative;
+
+}
+
+#sec2a{
+    position: absolute;
+    left: 682px;
+    top: -190.5px;
+    width: 750px;
+    display: none;
+}
+#sec2a p{
+    color: black;
+    text-align: justify;
+}
+#men2a:hover #sec2a {
+    display: block !important;
+}
+
+/* Adisory Board styling men3 */
+
+#men3a{
+    position: relative;
+
+}
+
+#sec3a{
+    position: absolute;
+    left: 682px;
+    top: -233px;
+    width: 750px;
+    display: none;
+}
+#sec3a p{
+    color: black;
+    text-align: justify;
+}
+#men3a:hover #sec3a {
+    display: block !important;
+}
+
+/* Secretariat styling men4 */
+
+#men4a{
+    position: relative;
+
+}
+
+#sec4a{
+    position: absolute;
+    left: 682px;
+    top: -275.5px;
+    width: 750px;
+    display: none;
+}
+#sec4a p{
+    color: black;
+    text-align: justify;
+}
+#men4a:hover #sec4a {
+    display: block !important;
+}
+
+/* Transparency & Accountability styling men5 */
+#men5a{
+    position: relative;
+
+}
+
+#sec5a{
+    position: absolute;
+    left: 682px;
+    top: -317.5px;
+    width: 750px;
+    display: none;
+}
+#sec5a p{
+    color: black;
+    text-align: justify;
+}
+#men5a:hover #sec5a {
+    display: block !important;
+}
+
+/* FAQ men6 styling */
+#men6a{
+    position: relative;
+
+}
+
+#sec6a{
+    position: absolute;
+    left: 682px;
+    top: -360px;
+    width: 750px;
+    display: none;
+}
+#sec6a p{
+    color: black;
+    text-align: justify;
+}
+#men6a:hover #sec6a {
+    display: block !important;
+}
+
+
+/* Get involved styling */
+
+
+#blockp{
+    position: relative;
+    color: #000000;
+    font-weight:550;
+}
+#blockp #catep ul{
+    position: absolute;
+    left: -775px;
+    top:56px;
+    text-align: center;
+}
+#blockp #catep ul li{  
+    padding: 8px ;
+    text-align: justify;
+    position: relative;
+    left: 0px;
+    font-weight: normal;
+}
+#catep ul {
+   display:none;
+}
+#blockp:hover #catep ul{
+   display: block;
+   width: 100%;
+   background-color: #ffffff;
+}
+#blockp #catep ul li:hover{
+   display: block;
+   background: rgb(255, 146, 4);
+   width: 98%;
+}
+#catep{
+   width: auto;
+  
+}
+/*second patent and child */
+
+#ptp{
+    padding-top: 80px;
+}
+#ptp h3{
+    text-align: left;
+    color: #000000;
+}
+#padp{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    width: 250px !important;
+    height: 393px !important;
+    z-index: 2 !important;
+}
+#padp li{
+    color: #000000;
+}
+#menp{
+    position: relative;
+
+}
+
+#secp{
+    position: absolute;
+    left: 958.5px;
+    top: -105.5px;
+    width: 750px;
+}
+#secp p{
+    color: black;
+    text-align: justify;
+}
+
+
+/* for second  men1 leadership */
+#ul{
+    display: flex;
+}
+
+#men1p{
+    position: relative;
+
+}
+
+#sec1p{
+    position: absolute;
+    left:  958.5px;
+    top: -148px;
+    width: 750px;
+    display: none;
+}
+#sec1p p{
+    color: black;
+    text-align: justify;
+}
+#men1p:hover #sec1p {
+    display: block !important;
+}
+
+/* executive board styleing men2 */
+
+#men2p{
+    position: relative;
+
+}
+
+#sec2p{
+    position: absolute;
+    left:  958.5px;
+    top: -190.5px;
+    width: 750px;
+    display: none;
+}
+#sec2p p{
+    color: black;
+    text-align: justify;
+}
+#men2p:hover #sec2p {
+    display: block !important;
+}
+
+/* Adisory Board styling men3 */
+
+#men3p{
+    position: relative;
+
+}
+
+#sec3p{
+    position: absolute;
+    left:  958.5px;
+    top: -233px;
+    width: 750px;
+    display: none;
+}
+#sec3p p{
+    color: black;
+    text-align: justify;
+}
+#men3p:hover #sec3p {
+    display: block !important;
+}
+
+/* Secretariat styling men4 */
+
+#men4p{
+    position: relative;
+
+}
+
+#sec4p{
+    position: absolute;
+    left: 958.5px;
+    top: -275.5px;
+    width: 750px;
+    display: none;
+}
+#sec4p p{
+    color: black;
+    text-align: justify;
+}
+#men4p:hover #sec4p {
+    display: block !important;
+}
+
+/* Transparency & Accountability styling men5 */
+#men5p{
+    position: relative;
+
+}
+
+#sec5p{
+    position: absolute;
+    left:  958.5px;
+    top: -317.5px;
+    width: 750px;
+    display: none;
+}
+#sec5p p{
+    color: black;
+    text-align: justify;
+}
+#men5p:hover #sec5p {
+    display: block !important;
+}
+
+/* FAQ men6 styling */
+#men6p{
+    position: relative;
+
+}
+
+#sec6p{
+    position: absolute;
+    left: 958.5px;
+    top: -386.5px;
+    width: 750px;
+    display: none;
+}
+#sec6a p{
+    color: black;
+    text-align: justify;
+}
+#men6p:hover #sec6p {
+    display: block !important;
+}
+
+
+
+/* search styling */
+.fa-search{
+    color:rgb(255, 146, 4) ;
+    
+}
+#blockh{
+    position: relative;
+    color: #000000;
+    font-weight:550;
+}
+#blockh #cateh ul{
+    position: absolute;
+    left: -1045px;
+    top:65px;
+    text-align: center;
+}
+#cateh ul {
+   display:none;
+}
+
+#cateh{
+   width: auto;
+  
+}
+#padh{
+    height: 100px;
+    width: 1020px !important;
+    background-color: #cccccc !important;
+}
+.ss{
+    width: 700px !important;
+}
+.ss form input{
+    width: 650px;
+    height: 45px;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.ss form button{
+    height: 45px;
+    width: 110px;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ss form{
+    padding-top: 28px;
+    position: absolute;
+    left: 135px;
+}
+li {
+    cursor:pointer !important;
+}
+.fa-times{
+    cursor: pointer;
+    padding-top: 6px;
+    font-size: 25px;
+    color: #000 !important;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}

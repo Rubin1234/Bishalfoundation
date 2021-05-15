@@ -1,0 +1,48 @@
+.hero-container{
+    width: 100%;
+    height:auto;
+}
+.hero-container video{
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    .hero-container video{
+        object-fit: cover;
+        height: 250px;
+        width: 100%;
+    }
+    .don{
+        width: 300px;
+        position: absolute;
+        top: 18% !important;
+        left: 8% !important;
+        
+    }
+}
+#donate{
+    height: 45px;
+    width: 130px;
+    background-color: rgb(144, 7, 156);
+    border:none;
+    font-size: 24px;
+    color: #ffffff;
+    z-index: 1 !important;
+}
+.don{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    
+}
+.dnt{
+    padding-top: 10px;
+    text-align: center;
+}
+.don p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: justify;
+}

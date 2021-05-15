@@ -1,0 +1,45 @@
+#links{
+    text-decoration: none;
+    color:#000000;
+    transition: transform .1s linear;
+}
+#links:hover {
+    transform: scale(1.1); 
+  }
+
+  .tit{
+      font-weight: bold;
+      font-size: 28px;
+  }
+  #span{
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+  }
+  #tvd{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  #date{
+      padding-top: 30px;
+      font-size: 18px;
+      font-style: italic;
+     width: 200px;
+  }
+  #date span{
+      font-weight: bold;
+  }
+  .desc{
+      text-align: justify;
+  }
+  .ae{
+      padding: 20px 0px;
+  }
+ 
+  @media screen and (max-width: 992px) {
+    .ims img{
+        height:280px;
+         width:450px;
+      }
+       
+  }

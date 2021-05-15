@@ -1,0 +1,36 @@
+.data-container{
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    justify-content:space-around;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.data-number{
+    border-radius: 50%;
+    background-color:rgb(255, 153, 0);
+    display: inline-block;
+    padding: 30px;
+    width: 120px;
+    height: 120px;
+    line-height: 60px;
+}
+h5{
+    color: black;
+}
+.data-name{
+    padding-bottom: 30px;
+}
+.main-name{
+    text-decoration-color:rgb(255, 153, 0);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+@media (max-width: 876px) {
+    .data-representation, .data-container {
+      flex-direction: column;
+    }
+  }
+
+  

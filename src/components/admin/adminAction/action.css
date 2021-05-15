@@ -1,0 +1,45 @@
+.wth{
+    width: 95%;
+    margin: auto;
+}
+#tit,#date,#venu{
+    width: 150px;
+}
+#dpn{
+    width: 450px;
+}
+#action{
+    width: 250px;
+}
+#bdf{
+    display: flex;
+}
+#delt button{
+    width: 100px;
+    height: 35px;
+    margin: 20px 5px;
+    background-color: rgb(144, 7, 156);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.upd button{
+    width: 100px;
+    height: 35px;
+    margin: 20px 5px;
+    background-color: #e00000;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#st{
+  
+        width: 100%;
+        line-height: 1.4em;
+        height: 6.9em;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+      
+}

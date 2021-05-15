@@ -1,0 +1,46 @@
+
+#le{
+    text-align: center;
+}
+
+#le::after{
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 10%; 
+    padding-top: 7px; 
+    border-bottom: 4px solid #fa7d00; 
+}
+.btn{
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+}
+#btn{
+    width: 140px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: rgb(144, 7, 156);
+    color: #ffffff;
+    font-size: 18px;
+    box-shadow: 0px 2px 4px gray;
+}
+.cards{
+    width: '390px'
+}
+.wh{
+    width:89%;
+    margin:auto;
+ 
+}
+@media screen and (max-width: 992px) {
+    .wh{
+        width: 94.5% !important;
+    }
+  }
+
+
+
+
+
